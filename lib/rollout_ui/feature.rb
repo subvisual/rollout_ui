@@ -1,6 +1,6 @@
 module RolloutUi
   class Feature
-    User = Struct.new(:id)
+    User = Struct.new(rollout.user_identifier_method)
 
     attr_reader :name
 
