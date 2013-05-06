@@ -1,6 +1,6 @@
 GIT
-  remote: git://github.com/jamesgolick/rollout.git
-  revision: 70973c95b38d751a690690b4f1ad7b8af8865f22
+  remote: git://github.com/groupbuddies/rollout.git
+  revision: f65083e45cb0d68e2a66b6427fcccda73e099463
   specs:
     rollout (2.0.0c)
       redis
