@@ -19,6 +19,8 @@ module RolloutUi
   end
 
   def self.rollout
-    @@rollout
+    if defined? @@rollout
+      @@rollout
+    end
   end
 end
